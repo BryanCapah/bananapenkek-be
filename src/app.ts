@@ -5,7 +5,7 @@ import cors from 'cors'
 import compression from 'compression'
 import helmet from 'helmet'
 
-import Auth from './routers/Auth'
+import Auth from './routers/auth'
 import AuthValidator from './middlewares/AuthValidator'
 
 dotenv.config()
